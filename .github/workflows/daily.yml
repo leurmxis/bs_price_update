@@ -20,7 +20,7 @@ jobs:
 
     - name: req
       run: |
-        pip install akshare pandas pyarrow pytz baostock
+        pip install akshare pandas pyarrow pytz baostock numpy
 
     - name: run
       run: python data.py
